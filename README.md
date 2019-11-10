@@ -3,6 +3,19 @@ Rename images and videos from booth Google Pixel and iPhone consistently and sor
 
 Note: Tested with Mac OS, should work with most Unix Systems. Otherwise PR welcome!
 
+## Requirements
+Make sure you have rename installed otherwise install it with
+
+**Mac OS**
+```
+brew install rename
+```
+
+**Ubuntu**
+```
+sudo apt install rename
+```
+
 ## Usage
 This script renames the files in the current directory.
 
