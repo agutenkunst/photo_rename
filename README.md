@@ -19,6 +19,7 @@ sudo apt install rename
 ## Usage
 This script renames the files in the current directory.
 
+### Bash
 Test with
 ```
 photo_rename.sh *.{jpg,mp4,gif} --dry-run
@@ -27,4 +28,15 @@ photo_rename.sh *.{jpg,mp4,gif} --dry-run
 Run with (non-reversible!)
 ```
 photo_rename.sh *.{jpg,mp4,gif}
+```
+
+### Zsh
+Test with
+```
+photo_rename.sh *.(jpg|mp4|gif) --dry-run
+```
+
+Run with (non-reversible!)
+```
+photo_rename.sh *.(jpg|mp4|gif)
 ```
